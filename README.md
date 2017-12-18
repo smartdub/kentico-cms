@@ -5,6 +5,8 @@ Sharing front-end development knowledge to design within Kentico's portal engine
 
 # Transformations references
 
+This is a resumé of the official Kentico documentation available here: [Kentico#10](https://docs.kentico.com/k10/developing-websites/loading-and-displaying-data-on-websites/writing-transformations/reference-transformation-methods), [K#11](https://docs.kentico.com/k11/developing-websites/loading-and-displaying-data-on-websites/writing-transformations/reference-transformation-methods)
+
 ## Boolean conditional operations
 
 | method | coded example |
@@ -39,5 +41,3 @@ Sharing front-end development knowledge to design within Kentico's portal engine
 | <%#&nbsp;`DocumentCustomData["Example"]`&nbsp;%> | | Gets the value of custom page data fields (culture specific). Use the ["nodename"] notation to retrieve data stored in the specified node of the XML. |
 | <%#&nbsp;`EditableItems["Example"]`&nbsp;%> | | Gets the content of the specified editable region on the page. |
 | <%#&nbsp;`NodeCustomData["Example"]`&nbsp;%> | | Gets the value of custom page data fields (shared for all culture versions). Use the ["nodename"] notation to retrieve data stored in the specified node of the XML. |
-
-This is a resumé of the official Kentico documentation available here: [Kentico#10](https://docs.kentico.com/k10/developing-websites/loading-and-displaying-data-on-websites/writing-transformations/reference-transformation-methods), [K#11](https://docs.kentico.com/k11/developing-websites/loading-and-displaying-data-on-websites/writing-transformations/reference-transformation-methods)
