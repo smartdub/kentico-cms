@@ -5,8 +5,6 @@ Sharing front-end development knowledge to design within Kentico's portal engine
 
 # Transformations references
 
-*✔* The 2nd parameter is optional (false by default) = `<%# Eval("Example", false) %>`
-
 ## Boolean conditional operations
 
 | method | coded example |
@@ -21,6 +19,8 @@ Sharing front-end development knowledge to design within Kentico's portal engine
 | IsDocumentOnSelectedPath | <%#&nbsp;`IsDocumentOnSelectedPath()`&nbsp;%> |
 
 ## Data loading
+
+*✔* The 2nd parameter is optional (false by default) = `<%# Eval("Example", false) %>`
 
 | coded method | default false | description |
 | --- | :---: | --- |
